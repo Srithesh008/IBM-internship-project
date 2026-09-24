@@ -17,16 +17,12 @@ __pycache__/
 .vscode/
 .idea/
 
-# Generated outputs
-outputs/
 *.log
 
 # Local environment / OS files
 .DS_Store
 Thumbs.db
 
-# Large data files
-city_day.csv
 
 # Optional: keep secrets out of git
 .env
