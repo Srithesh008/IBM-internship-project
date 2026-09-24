@@ -1,0 +1,33 @@
+# Python virtual environment
+venv/
+.venv/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter / editor caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+
+# Generated outputs
+outputs/
+*.log
+
+# Local environment / OS files
+.DS_Store
+Thumbs.db
+
+# Large data files
+city_day.csv
+
+# Optional: keep secrets out of git
+.env
+.env.*
